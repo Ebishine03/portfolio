@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kdam+Thmor+Pro&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Poppins:wght@300&display=swap');
+:root{
+    --font-neon-text-shadow:
+}
+header{
+    box-shadow: 5px 5px 5px #b4f7e8;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    /* background-color: #0d0f0e; */
+    /* background-color: #250821; */
+    background-color:  #121212;
+   
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    /* background-color:  hsl(0, 2%, 10%); */
+}
+.cnt{
+
+font-family: 'Poppins', sans-serif;
+}
+
+
+   
+
+nav,a{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+}
+.row{
+    margin: 0;
+    padding: 0;
+}
+.header:hover{
+    text-shadow: brown;
+    color: #b4f7e8;
+}
+a:hover{
+
+color: rgb(0, 255, 102);
+text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+
+}
+.cv,.hire{
+    width: 9rem;
+    height: 3rem;
+    background-color: #121212;
+    color: #b4f7e8;
+    border: 2px solid rgb(0, 208, 255);
+    transition: all 500ms ease;
+    border-radius: 5px;
+
+}
+  *, *::after, *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    
+    ion-icon {
+        color: #fff;
+        font-size: 3em;
+        border: none;
+    }
+
+    .cv:hover {
+        box-shadow: 0 0 20px #0ebac5;
+    }
+    .hire:hover{
+        box-shadow: 0 0 20px #0ebac5;
+    }
+
+    .cv:hover ion-icon{
+        color: #0ebac5;
+        box-shadow: 0 0 12px #0ebac5;
+        
+    }
+    .hire:hover{
+        color: #0ebac5;
+        box-shadow: 0 0 12px #0ebac5;
+    }
+
+    @media screen and (min-width: 500px) {
+        ul {
+            display: flex;
+        }
+    }
+
+    .card{
+        box-shadow: 0px 3px 8px lime ;
+        background-color: #121212;
+        width: auto;
+        height: 300px;
+      
+    }
+    
+    .card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      
+      
+        transition: .5s;
+        transform: scale(.9);
+        z-index: -1;
+      }
+      .card:hover::before {
+        transform: scale(1.0);
+        box-shadow: 0 0 8px #ff1010;
+      }
+      
+    .card:hover {
+       
+        box-shadow: 0 0 2px #ab10ff;
+        /* text-shadow: 0 0 5px #10ff38; */
+      }
+      .card:hover{
+        
+transform: scale(1.05);
+transition-delay: 1.5;
+          }
