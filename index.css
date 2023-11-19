@@ -108,7 +108,7 @@ text-shadow:
     .card{
         box-shadow: 0px 3px 8px lime ;
         background-color: #121212;
-        width: auto;
+        width: 300px;
         height: 300px;
       
     }
